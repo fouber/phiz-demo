@@ -22,10 +22,25 @@ A Demo Of [Phiz](https://github.com/fouber/phiz) Framework
     if you got [php-cgi] support in your system, you can launch a built-in webserver of [phiz-sdk](ttps://github.com/fouber/phiz-tool) by the command below:
     
     ```bash
-    phiz server star --no-rewrite
+    phiz server start --no-rewrite
     ```
     
     otherwise, you need a webserver which can run php.
+
+1. phiz-lib
+
+    if you have launched phiz-sdk built-in server, then use the command below to install [phiz-lib](https://github.com/fouber/phiz) to phiz server ``www`` directory:
+    
+    ```bash
+    phiz server install phiz-lib
+    ```
+    
+    otherwise, use git clone: 
+    
+    ```bash
+    cd path/to/your/webserver/htdocs
+    git clone https://github.com/fouber/phiz.git
+    ```
 
 ## Run Demo
 
