@@ -49,6 +49,7 @@ A Demo Of [Phiz](https://github.com/fouber/phiz) Framework
     if you have launched phiz-sdk built-in server, then use the command below to compile and release the project to phiz server ``www`` directory:
     
     ```bash
+    cd path/to/workspace/phiz-demo
     phiz release -r common
     phiz release -r foo
     phiz release -r foo-bar
@@ -57,6 +58,7 @@ A Demo Of [Phiz](https://github.com/fouber/phiz) Framework
     otherwise, use ``-d <path>`` option of phiz release command to specify release path: 
     
     ```bash
+    cd path/to/workspace/phiz-demo
     phiz release -r common -d path/to/your/webserver/htdocs
     phiz release -r foo -d path/to/your/webserver/htdocs
     phiz release -r foo-bar -d path/to/your/webserver/htdocs
