@@ -1,7 +1,7 @@
 A Demo Of [Phiz](https://github.com/fouber/phiz) Framework
 ========
 
-# prepare
+## prepare
 
 1. install [sdk](https://github.com/fouber/phiz-tool)
 
@@ -26,7 +26,7 @@ A Demo Of [Phiz](https://github.com/fouber/phiz) Framework
     
     otherwise, you need a webserver which can run php.
 
-# run demo
+## run demo
 
 1. release project
 
@@ -55,7 +55,7 @@ A Demo Of [Phiz](https://github.com/fouber/phiz) Framework
     view it at [http://127.0.0.1:8080/index.php]
 
 
-# learn more
+## learn more
 
 * [phiz](https://github.com/fouber/phiz)
 * [phiz-sdk](https://github.com/fouber/phiz-tool)
