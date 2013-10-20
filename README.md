@@ -14,6 +14,7 @@ A Demo Of [Phiz](https://github.com/fouber/phiz) Framework
     ```bash
     cd path/to/workspace
     git clone https://github.com/fouber/phiz-demo.git
+    cd phiz-demo
     ```
 
 1. webserver
@@ -29,10 +30,6 @@ A Demo Of [Phiz](https://github.com/fouber/phiz) Framework
 ## run demo
 
 1. release project
-
-    ```bash
-    cd phiz-demo
-    ```
     
     if you have launched phiz-sdk built-in server, then use the command below to compile and release the project to phiz server ``www`` directory:
     
