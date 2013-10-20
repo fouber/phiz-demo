@@ -1,0 +1,10 @@
+.hero-unit {
+    background: url(slide.jpg) no-repeat 0 0;
+    background-size: 100% 100%;
+    _background-repeat: repeat;
+    color: #fff;
+}
+
+.hero-unit p {
+    color: #999;
+}
