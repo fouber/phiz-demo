@@ -42,7 +42,7 @@ A Demo Of [Phiz](https://github.com/fouber/phiz) Framework
     phiz release -r foo-bar/
     ```
     
-    otherwise, use ``-d &lt;path&gt;`` option of phiz release command to specify release path: 
+    otherwise, use ``-d <path>`` option of phiz release command to specify release path: 
     
     ```bash
     phiz release -r common -d path/to/your/webserver/htdocs
