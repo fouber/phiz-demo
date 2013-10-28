@@ -1,6 +1,6 @@
 <?php
 
-class Foo_Page_Index extends PhizPage {
+class Foo_Page_Index extends PhizView {
     
     protected function init(){
         $this->assign('menu', $this->getMenuData());
@@ -32,7 +32,7 @@ class Foo_Page_Index extends PhizPage {
         return 'php template view fis phiz';
     }
     
-    protected function buildPage(){
+    protected function loadTemplate(){
         return $this->load('common:layout/skeleton')
                     ->title('foo-bar page')
                     ->description( $this->getDescription() )
